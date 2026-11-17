@@ -1,0 +1,20 @@
+{
+  "data": "100% synthetic nursing workforce PPE",
+  "target": "PPE",
+  "model": "univariate SARIMA",
+  "order": [
+    0,
+    1,
+    1
+  ],
+  "seasonal_order": [
+    0,
+    1,
+    1,
+    12
+  ],
+  "test_months": 10,
+  "training_end": "2025-12-31",
+  "history_end": "2026-10-31",
+  "selection": "Lowest AIC on training data among three SARIMA candidates"
+}

@@ -1,0 +1,5 @@
+method,MAE,RMSE,MAPE_pct
+SARIMA,14.09698,16.65854,0.90372
+Last observed value,41.81600,43.97923,2.68353
+Same month last year,43.49100,45.97821,2.79228
+Last 3-month average,44.57600,46.61132,2.86116
